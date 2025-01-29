@@ -36,7 +36,7 @@ Python を学習したアウトプットの一環として、**Googleスプレ�
   - `gspread`（Google Sheets API 連携）  
   - `oauth2client`（Google API 認証）  
 - **データストレージ**: Google スプレッドシート  
-- **実行環境**: Google Colab（ローカルPCでも実行可能）  
+- **実行環境**: Google Colab  
 
 ---
 
@@ -45,7 +45,7 @@ Python を学習したアウトプットの一環として、**Googleスプレ�
 - Google アカウント
 - Google スプレッドシート（任意の名前で作成）
 - Google Cloud Platform (GCP) の API 設定
-- Python 実行環境（Google Colab / ローカルPC）
+- Python 実行環境（Google Colab）
 
 ### **2️⃣ Google Cloud Platform (GCP) 設定**
 1. [Google Cloud Console](https://console.cloud.google.com/) にアクセスし、新しいプロジェクトを作成  
