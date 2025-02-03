@@ -70,11 +70,12 @@ from google.colab import drive
 drive.mount('/content/drive')
 ```
 
-### **5️⃣ スクリプトを実行**
-```bash
-python task_manager.py
+### **5️⃣ 該当箇所を変更しスクリプトを実行**
+**#Googleスプレッドシート認証**
 ```
-
+credentials_path = "/content/drive/MyDrive/credentials.json"  # 必要に応じて修正
+spreadsheet = gc.open("タスク管理ツール")  # 任意のスプレッドシート名に変更
+```
 🔗 **GitHub リポジトリ:** [https://github.com/MaiHirahara/task-management-portfolio](https://github.com/MaiHirahara/task-management-portfolio)  
 
 ---
